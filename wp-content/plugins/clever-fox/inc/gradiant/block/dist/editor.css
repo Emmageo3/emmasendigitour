@@ -1,0 +1,513 @@
+.bDevicePopup {
+    position: absolute;
+    width: 30px;
+    z-index: 999;
+    top: -11px;
+}
+.bDevice button {
+    cursor: pointer;
+    padding: 1px 6px;
+}
+.bDevice {
+    width: 30px;
+    position: relative;
+}
+.bDevice + div {
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+}
+.iconButton {
+    background: #fff;
+    border: 1px solid #fe6601;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 !important;
+    margin-left: 3px;
+    height: 22px;
+    width: 26px;
+}
+.iconButton span {
+    font-size: 14px;
+}
+.iconButton span,
+.iconButton svg {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+.iconButton span:before {
+    font-size: inherit;
+}
+.gradiantDropdownPopover .gradiantTypoFontTitle p:last-child {
+    width: 73px;
+    margin-right: 0;
+}
+.gradiantDropdownPopover .gradiantTypoFont {
+    margin-top: 0;
+}
+.gradiantDropdownPopover .gradiantTypoFont .gradiantTypoFontSelect {
+    position: relative;
+    margin-right: 8px;
+    width: 175px;
+}
+.gradiantDropdownPopover .gradiantTypoFont .gradiantTypoFontSelect input {
+    width: 100%;
+}
+.gradiantDropdownPopover .gradiantTypoFont .gradiantTypoFontSelect .gradiantTypoFontLists {
+    position: absolute;
+    height: 200px;
+    background: #fff;
+    width: 100%;
+    overflow-y: scroll;
+    z-index: 99;
+    margin: 0;
+    box-shadow: 0 4px 15px 0 rgba(254, 102, 1, 0.5019607843137255);
+    border-radius: 8px;
+}
+.gradiantDropdownPopover .gradiantTypoFont .gradiantTypoFontSelect .gradiantTypoFontLists li {
+    margin: 0;
+    padding: 3px 10px;
+}
+.gradiantDropdownPopover .gradiantTypoFont .gradiantTypoFontSelect .gradiantTypoFontLists li:hover {
+    background-color: rgba(254, 102, 1, 0.058823529411764705);
+    cursor: pointer;
+}
+.gradiantDropdownPopover .gradiantTypoFont .gradiantTypoFontSelect .dashicon {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.gradiantDropdownPopover .gradiantTypoFont > div.components-base-control > div.components-base-control__field {
+    margin-bottom: 0 !important;
+    border-radius: 4px;
+}
+.gradiantDropdownPopover .gradiantTypoFont > div.components-base-control > div.components-base-control__field select {
+    height: 32px;
+    width: 73px;
+}
+.gradiantSpaceControl .components-unit-control-wrapper .components-unit-control__select {
+    width: 18px !important;
+}
+.gradiantSpaceControl .fourColumn {
+    justify-content: space-between;
+}
+.gradiantSpaceControl .fourColumn > .components-unit-control-wrapper > .components-unit-control {
+    width: 55px;
+}
+.gradiantSpaceControl .fourColumn > .components-unit-control-wrapper > .components-unit-control > .css-d373l0-Item-LabelWrapper {
+    margin-right: 0;
+}
+.gradiantSpaceControl .twoColumn {
+    justify-content: space-between;
+}
+.gradiantSpaceControl .twoColumn > .components-unit-control-wrapper > .components-unit-control {
+    width: 110px;
+}
+.gradiantSpaceControl .twoColumn > .components-unit-control-wrapper > .components-unit-control > .css-d373l0-Item-LabelWrapper {
+    margin-right: 0;
+}
+.gradiantSpaceControl .gradiantBtnGroup {
+    display: flex;
+}
+.gradiantSpaceControl .gradiantBtnGroup .components-button,
+.gradiantSpaceControl .gradiantBtnGroup .gradiantBtnGroup .is-primary {
+    padding: 6px;
+}
+.gradiantSpaceControl .gradiantBtnGroup .sideScrollIcon svg {
+    transform: rotate(90deg);
+}
+.bColor {
+    display: flex;
+    align-items: center;
+}
+.bColorButtonContainer {
+    height: 30px;
+    width: 30px;
+    background-image: linear-gradient(45deg, #ddd 25%, rgba(0, 0, 0, 0) 0), linear-gradient(-45deg, #ddd 25%, rgba(0, 0, 0, 0) 0), linear-gradient(45deg, rgba(0, 0, 0, 0) 75%, #ddd 0), linear-gradient(-45deg, rgba(0, 0, 0, 0) 75%, #ddd 0);
+    background-size: 10px 10px;
+    background-position: 0 0, 0 5px, 5px -5px, -5px 0;
+    border: 1px solid #e9e9e9;
+    border-radius: 50%;
+}
+.bColorButtonContainer .bColorButton {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+}
+.bColorButtonContainer .bColorButton:hover {
+    cursor: pointer;
+}
+.gradiantIconTitle i {
+    font-size: 25px;
+}
+.gradiantIconSelect {
+    position: relative;
+}
+.gradiantIconSelect input {
+    width: 100%;
+}
+.gradiantIconSelect .gradiantIconLists {
+    position: absolute;
+    width: 100%;
+    min-height: 80px;
+    max-height: 200px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    justify-items: center;
+    overflow-y: scroll;
+    z-index: 99;
+    margin: 0;
+    box-shadow: 0 4px 15px 0 rgba(254, 102, 1, 0.5019607843137255);
+    border-radius: 8px;
+}
+.gradiantIconSelect .gradiantIconLists i {
+    margin: 0;
+    padding: 8px;
+    font-size: 24px;
+}
+.gradiantIconSelect .gradiantIconLists i:hover {
+    background-color: rgba(254, 102, 1, 0.058823529411764705);
+    cursor: pointer;
+}
+.gradiantIconSelect .dashicon {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.wp-block-info-box-infos .gradiantInfos {
+    display: block;
+}
+.wp-block-info-box-infos .gradiantInfos > .block-editor-inner-blocks > .block-editor-block-list__layout {
+    display: grid;
+}
+.wp-block-info-box-infos .gradiantInfos > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="info-box/info"] {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+}
+.wp-block-info-box-infos .gradiantInfos > .block-editor-inner-blocks > .block-editor-block-list__layout .block-list-appender {
+    width: 100%;
+    position: absolute;
+    bottom: -33px;
+}
+.wp-block[data-align="full"] {
+    display: contents;
+}
+.block-editor-block-list__block[data-align="wide"] {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+.wp-block[data-align="wide"] {
+    max-width: 100% !important;
+    width: 94% !important;
+}
+@media screen and (max-width: 992px) {
+    .wp-block[data-align="wide"] {
+        width: 96% !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .wp-block[data-align="wide"] {
+        width: 98% !important;
+    }
+}
+@media screen and (max-width: 576px) {
+    .wp-block[data-align="wide"] {
+        width: 100% !important;
+    }
+}
+.block-editor-block-list__block[data-align="center"] {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+.mt-20p {
+    margin-top: 20px !important;
+}
+.columns-1 > .block-editor-inner-blocks > .block-editor-block-list__layout {
+    grid-template-columns: repeat(1, 1fr);
+}
+.columns-2 > .block-editor-inner-blocks > .block-editor-block-list__layout {
+    grid-template-columns: repeat(2, 1fr);
+}
+.columns-3 > .block-editor-inner-blocks > .block-editor-block-list__layout {
+    grid-template-columns: repeat(3, 1fr);
+}
+.columns-4 > .block-editor-inner-blocks > .block-editor-block-list__layout {
+    grid-template-columns: repeat(4, 1fr);
+}
+.columns-5 > .block-editor-inner-blocks > .block-editor-block-list__layout {
+    grid-template-columns: repeat(5, 1fr);
+}
+.columns-6 > .block-editor-inner-blocks > .block-editor-block-list__layout {
+    grid-template-columns: repeat(6, 1fr);
+}
+.columns-7 > .block-editor-inner-blocks > .block-editor-block-list__layout {
+    grid-template-columns: repeat(7, 1fr);
+}
+.columns-8 > .block-editor-inner-blocks > .block-editor-block-list__layout {
+    grid-template-columns: repeat(8, 1fr);
+}
+.columns-9 > .block-editor-inner-blocks > .block-editor-block-list__layout {
+    grid-template-columns: repeat(9, 1fr);
+}
+.columns-10 > .block-editor-inner-blocks > .block-editor-block-list__layout {
+    grid-template-columns: repeat(10, 1fr);
+}
+.columns-11 > .block-editor-inner-blocks > .block-editor-block-list__layout {
+    grid-template-columns: repeat(11, 1fr);
+}
+.columns-12 > .block-editor-inner-blocks > .block-editor-block-list__layout {
+    grid-template-columns: repeat(12, 1fr);
+}
+.components-panel__body-title button {
+    font-size: 16px;
+}
+.components-unit-control-wrapper label,
+.gradiantLabel {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+    margin-right: auto;
+}
+.components-unit-control-wrapper .components-unit-control__select {
+    font-size: 11px !important;
+    width: 25px !important;
+    color: #fff !important;
+    background-color: #fe6601 !important;
+}
+.gradiantTabPanel .components-tab-panel__tabs {
+    display: flex;
+    justify-content: space-between;
+}
+.gradiantTabPanel .components-tab-panel__tabs button {
+    width: 50%;
+}
+.gradiantTabPanel .components-tab-panel__tabs button:focus {
+    border-top: none;
+}
+.gradiantTabPanel .components-tab-panel__tabs .activeTab {
+    border-bottom: 3px solid #fe6601;
+    font-weight: 700;
+}
+.components-spinner {
+    background-color: #fe6601 !important;
+}
+.components-base-control__field {
+    display: flex;
+}
+.components-base-control__field .components-checkbox-control__input[type="checkbox"] {
+    border-radius: 4px;
+    border-color: #fe6601;
+}
+.components-base-control__field .components-checkbox-control__input[type="checkbox"]:checked {
+    background-color: #fbb040;
+    border-color: #fe6601;
+}
+.components-base-control__field .components-checkbox-control__input[type="checkbox"]:focus {
+    box-shadow: 0 0 0 2px #fff, 0 0 0 3.5px #fe6601;
+}
+.block-editor-block-list__insertion-point-inserter button,
+.block-editor-inserter button,
+.block-list-appender button {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+.block-editor-block-list__insertion-point-inserter button svg,
+.block-editor-inserter button svg,
+.block-list-appender button svg {
+    fill: #fe6601;
+    width: 20px !important;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0) !important;
+    border: 2px solid #fe6601;
+    border-radius: 50% !important;
+}
+.gradiantBtnGroup .components-button,
+.gradiantBtnGroup .is-primary {
+    border: 1px solid #fbb040;
+    box-shadow: none;
+    padding: 6px 10.5px;
+}
+.gradiantBtnGroup .components-button:hover,
+.gradiantBtnGroup .is-primary:hover {
+    color: #fe6601;
+}
+.gradiantBtnGroup .components-button .dashicon,
+.gradiantBtnGroup .is-primary .dashicon {
+    margin-left: 0;
+    margin-right: 0;
+}
+.gradiantBtnGroup .components-button.has-icon,
+.gradiantBtnGroup .is-primary.has-icon {
+    padding: 6px 9px;
+}
+.gradiantBtnGroup .is-primary {
+    color: #fff;
+    background-color: #fe6601;
+}
+.gradiantBtnGroup .is-primary:hover {
+    background-color: #fbb040 !important;
+}
+.gradiantBtnGroup .is-primary:focus {
+    outline: 2px solid #fbb040 !important;
+}
+.gradiantBtnGroup svg {
+    margin-right: 0 !important;
+}
+.components-button.has-icon .dashicon {
+    margin-right: 0;
+}
+.gradiantResetVal {
+    min-width: 20px !important;
+    height: 20px;
+    padding: 0 5px !important;
+}
+.gradiantResetVal .dashicon {
+    width: 17px;
+    height: 17px;
+    font-size: 17px;
+}
+.components-circular-option-picker .components-circular-option-picker__swatches {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 0;
+}
+.components-circular-option-picker .components-circular-option-picker__swatches .components-circular-option-picker__option-wrapper {
+    margin: 0 !important;
+}
+.components-circular-option-picker .components-custom-gradient-picker .components-custom-gradient-picker__gradient-bar {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.components-circular-option-picker .components-custom-gradient-picker .components-custom-gradient-picker__ui-line {
+    margin-bottom: 0;
+}
+.gradiantSizeType {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0 5px;
+}
+.gradiantSizeType button {
+    box-shadow: none !important;
+    outline: 0;
+}
+.components-toggle-control label {
+    margin-bottom: 3px;
+}
+.components-form-toggle .components-form-toggle__track {
+    border: 1px solid #fe6601;
+}
+.components-form-toggle.is-checked .components-form-toggle__track {
+    background-color: #fbb040;
+}
+.components-form-toggle .components-form-toggle__input:focus + .components-form-toggle__track {
+    box-shadow: 0 0 0 2px #fff, 0 0 0 3.5px #fe6601;
+}
+.components-form-toggle .components-form-toggle__thumb {
+    background-color: #fe6601;
+    border-color: #fe6601;
+}
+.components-range-control__root {
+    align-items: center !important;
+}
+.components-range-control__root .css-19yq0mf-BeforeIconWrapper {
+    margin: 0 !important;
+}
+.components-range-control__wrapper .components-range-control__track {
+    background-color: #fbb040;
+}
+.components-range-control__wrapper .css-5p7d2w-ThumbWrapper {
+    width: 14px;
+    height: 14px;
+    margin-top: 8px;
+}
+.components-range-control__wrapper .css-5p7d2w-ThumbWrapper .css-hdouys-Thumb {
+    background-color: #fe6601;
+    border: 1px solid #fe6601;
+}
+.components-range-control__wrapper .css-5p7d2w-ThumbWrapper .css-3llzg4-Thumb {
+    border: 2px solid #fe6601;
+    box-shadow: none;
+}
+.components-range-control__wrapper .components-range-control__tooltip {
+    background-color: #fe6601;
+}
+.components-radio-control__option {
+    margin-right: 15px;
+}
+.components-radio-control__option .components-radio-control__input[type="radio"] {
+    border: 1px solid #fe6601;
+}
+.components-radio-control__option .components-radio-control__input[type="radio"]:checked {
+    background-color: #fe6601;
+    border-color: #fe6601;
+}
+.components-radio-control__option .components-radio-control__input[type="radio"]:focus {
+    box-shadow: 0 0 0 2px #fff, 0 0 0 3.5px #fe6601;
+}
+.components-radio-control__option label {
+    margin-bottom: 1px;
+}
+.editImageHolder {
+    position: relative;
+    min-height: 40px;
+    text-align: center;
+}
+.editImageHolder .mediaControl {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    width: fit-content;
+    z-index: 100;
+}
+.editImageHolder .mediaControl .btnControl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsla(0, 0%, 100%, 0.8);
+    padding: 0 10px;
+    border-radius: 3px;
+    width: max-content;
+}
+.editImageHolder .mediaControl .btnControl button {
+    color: #fe6601;
+    font-weight: 700;
+}
+.editImageHolder .mediaControl .btnControl button.btnRed {
+    color: red;
+}
+.editImageHolder img {
+    object-fit: cover;
+}
+.components-base-control.css-wdf2ti-Wrapper {
+    margin-bottom: 0 !important;
+}
+.gradiantDropdown .dashicon {
+    margin-right: 0 !important;
+}
+.gradiantDropdownPopover {
+    z-index: 9999;
+}
+.gradiantDropdownPopover .components-popover__content {
+    min-width: 280px;
+    margin-right: -35px !important;
+    margin-top: -8px;
+    border: none;
+    box-shadow: 0 3px 15px 0 rgba(254, 102, 1, 0.5019607843137255);
+    border-radius: 5px;
+}
+.gradiantDropdownPopover .dashicon {
+    margin-right: 0 !important;
+}

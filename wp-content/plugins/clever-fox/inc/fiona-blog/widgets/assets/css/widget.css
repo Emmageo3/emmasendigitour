@@ -1,0 +1,378 @@
+/* Get Info Box Start */
+.get-info-box ul.wrap-right {
+    padding-left: 20px;
+    height: 100%;
+    margin: 0;
+}
+
+.get-info-box {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header-widget:not(.wrap-right) .emergency-call:before,
+.footer .emergency-call:before,
+.sidebar .emergency-call:before,
+.get-info-box:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    /*width: 3000px;*/
+    height: 100%;
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.05);
+    border-radius: 3px;
+    z-index: -1;
+}
+
+.header-widget:not(.wrap-right) .emergency-call:before,
+.footer .emergency-call:before,
+.sidebar .emergency-call:before {
+	left: 0;
+}
+
+/* --/-- */
+
+/*=============== Emergency-Call Start =============*/
+
+.wrap-right .emergency-call {
+    height: 100%;
+    background-color: #00a3c8;
+}
+
+.emergency-call .contact-area {
+    -webkit-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    height: 100%;
+
+}
+
+.emergency-call .contact-icon {
+    margin-right: 0;
+    margin-left: 35px;
+    width: 72px;
+    height: 100%;
+    border-color: #212529;
+}
+
+.emergency-call .contact-icon i.fa {
+    text-align: center;
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    line-height: 1.37;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrap-right .emergency-call .contact-icon {
+    min-height: 72px;
+}
+
+.wrap-right .emergency-call .contact-icon i.fa {
+    line-height: 70px;
+}
+
+.wrap-right .emergency-call .contact-icon::before {
+	content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 108px;
+    background-color: transparent;
+    border: 36px solid;
+    border-color: inherit;
+    border-bottom-color: transparent;
+    z-index: 0;
+}
+
+.emergency-call .contact-info {
+    text-align: right;
+    color: #fff;
+	z-index: 0;
+}
+
+.emergency-call .contact-info .text {
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.emergency-call .contact-info .title {
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.emergency-call:before  {
+    background: inherit !important;
+	border: 1px solid inherit !important;
+}
+
+/* --/-- */
+
+/*=============== Sidebar Emergency-Call Start =============*/
+
+.header-widget:not(.wrap-right) .emergency-call .contact-info,
+.footer .emergency-call .contact-info,
+.sidebar .emergency-call .contact-info {
+    padding: 5px 4.75em 5px 0px;
+}
+
+.header-widget:not(.wrap-right) .emergency-call,
+.footer .emergency-call,
+.sidebar .emergency-call {
+    position: relative;
+    z-index: 1;
+	border-radius: 0;	
+}
+
+.header-widget:not(.wrap-right) .emergency-call,
+.footer:not(.footer .footer-center) .emergency-call,
+.sidebar .emergency-call {
+	max-width: 95%;
+}
+
+.header-widget:not(.wrap-right) .emergency-call .contact-icon,
+.footer .emergency-call .contact-icon,
+.sidebar .emergency-call .contact-icon {
+    margin-right: 0;
+    width: 50px;
+    height: 100%;    
+    position: absolute;
+    top: 0;
+    right: 12px;
+    z-index: 5;    
+}
+
+.header-widget:not(.wrap-right) .emergency-call .contact-icon::before,
+.footer .emergency-call .contact-icon::before,
+.sidebar .emergency-call .contact-icon::before {
+    top: 0px;
+    background-color: transparent;
+    border: 18px solid;
+    border-color: inherit;
+    border-right-color: transparent;
+    bottom: 0;
+    content: "";
+    position: absolute;
+    right: -30px;
+    z-index: 9;
+}
+
+.header-widget:not(.wrap-right) .emergency-call:before,
+.footer .emergency-call:before,
+.sidebar .emergency-call:before {
+	border-radius: 0;
+}
+
+/* --/-- */
+
+/*=============== Contact-Area Start =============*/
+
+.contact-area {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 13px;
+}
+
+.contact-icon {
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    font-size: 35px;
+    line-height: 1;
+    position: relative;
+    z-index: 1;
+}
+.contact-icon {
+    height: 35px;
+    margin-right: 10px;
+}
+
+@-webkit-keyframes fiona {
+    0% {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+    }
+
+    50% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+
+    100% {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+    }
+}
+
+@keyframes fiona {
+    0% {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+    }
+
+    50% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+
+    100% {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+    }
+}
+
+@-webkit-keyframes fiona-blog-float {
+    100% {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+    }
+}
+
+@keyframes fiona-blog-float {
+    100% {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+    }
+}
+
+.contact-area .contact-icon i,
+.contact-area .contact-icon img {
+    display: inline-block;
+    vertical-align: super;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.contact-area:hover .contact-icon i,
+.contact-area:hover .contact-icon img {
+    -webkit-animation-name: fiona-blog-float, fiona;
+    animation-name: fiona-blog-float, fiona;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+}
+
+.contact-info {
+    /*-webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;*/
+    display: inline-block;
+    text-align: left;
+    color: inherit;
+    text-decoration: none;
+}
+
+.contact-info span {
+    display: block;
+    line-height: normal;
+    font-size: 13px;
+    font-weight: 500;
+    text-shadow: -0.15px -0.15px 0 transparent, 0.15px 0.15px transparent;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.contact-info span.title {
+    font-size: 17px;
+    line-height: 1.15;
+    margin-bottom: 0px;
+}
+
+.contact-info .text {
+    margin: 0;
+    word-break: break-word;
+}
+
+/* --/-- */
+
+/* Contact Widget Color */
+
+.header-widget:not(.wrap-right) .emergency-call .contact-icon,
+.sidebar .emergency-call .contact-icon {
+	border-color: #212529;
+	background-color: #212529;
+}
+
+.footer .emergency-call .contact-icon {
+	border-color: #ffffff;
+	background-color: #ffffff;
+}
+
+/* .header-widget:not(.wrap-right) .emergency-call:before, */
+/* .footer .emergency-call:before, */
+/* .sidebar .emergency-call:before, */
+/* .get-info-box:before { */
+	/* background: #00a3c8; */
+	/* border-color: #00a3c8; */
+/* } */
+
+/* ---//--- */
+
+/* Widget Social Start */
+
+.widget_social_widget ul {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.widget_social_widget li {
+    position: relative;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-right: -5px;
+    overflow: visible;
+    list-style: none;
+}
+
+.widget.widget_social_widget li {
+    overflow: visible;
+    list-style: none;
+    margin: 0;
+    margin-right: 10px;
+}
+
+.widget_social_widget li:last-child {
+    margin-right: 0;
+}
+
+.widget_social_widget li a {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    line-height: 35px;
+    font-size: 16px;
+    text-align: center;
+}
+
+/*---//---*/
